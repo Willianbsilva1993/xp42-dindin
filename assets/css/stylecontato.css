@@ -1,0 +1,44 @@
+#contato {
+    font-family: 'Ubuntu';
+    display: relative;
+    float: left;
+    clear: both;
+    font-size: 40px;
+    color: #FF4081;
+    font-weight: 700;
+    margin: 0 0 64px;
+}
+.contato1{
+    background: url('../img/ilustra-contato.png') 100% 50% no-repeat;
+}
+
+input[type=text], input[type=email], textarea {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 0 23px;
+    padding: 10px 35px 10px 35px;
+    width: 493px;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    resize: none;
+}
+
+input[type=submit] {
+    
+    background: #FF4081;
+    border-radius: 50px;
+    color: white;
+    padding: 14px 50px;
+    border: none;
+    text-transform: lowercase;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: lowercase;
+}

@@ -110,7 +110,7 @@ footer a {
         width: 720px;
         
     }
-
+}
 @media only screen and (max-width: 520px) {
 
     .container {
@@ -120,4 +120,5 @@ footer a {
         flex-direction: column;
         align-items: center;
     }
+}
  /* Fim */
