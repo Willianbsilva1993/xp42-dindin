@@ -1,3 +1,192 @@
-main {
-    padding-top: 250px;
+.um {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: #E5E5E5;
+}
+.um div {
+    justify-content: left;
+}
+.um h1 {
+    max-width: 418px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+    color: #FF4081;
+}
+.um span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #555555;
+}
+.um button {
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    text-decoration: none;
+    background: white;
+    margin: 38px 258px 0 0;
+    padding: 10px 0;
+    
+}
+.um button a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    padding: 22px 26px;
+
+    color: #FF4081;
+}
+.dois {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    max-height: 730px;
+    left: 0px;
+    top: 829px;
+
+    background: #F7F7F7;
+    /* flex-wrap: wrap; */
+}
+.dois section {
+    align-items: center;
+    justify-content: space-between;
+}
+.dois img {
+    align-items: center;
+    justify-content: center;
+    max-height: 270px;
+
+}
+.dois h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    max-width: 344px;
+
+    color: #FF4081;
+    padding: 10px 30px;
+}
+.dois span {
+    max-width: 300px;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+.dois a {
+    box-sizing: border-box;
+    border-radius: 62px;
+    background: #FF4081;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding: 9px 15px;
+
+}
+.tres {
+    align-items: center;
+    justify-content: space-between;
+    padding: 119px 200px 155px 200px;
+
+}
+.tres h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+
+    color: #009688;
+}
+.tres article {
+    padding: 0 0 30px 0;
+    display: flex;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 500px;
+
+    color: #000000;
+}
+.tres img {
+    max-width: 104px;
+    max-height: 104px;
+}
+.tres h5 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.quatro {
+    align-items: center;
+    justify-content: space-between;
+    padding: 119px 200px 155px 200px;
+    background: #E5E5E5;;
+
+}
+.quatro h6{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    /* identical to box height */
+
+
+    color: #009688;
+
+}
+.quatro section {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    max-width: 319px;
+
+    color: #009688;
+}
+.quatro section p {
+    max-width: 319px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    margin: 0;
+
+
 }
