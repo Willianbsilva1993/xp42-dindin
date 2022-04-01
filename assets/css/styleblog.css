@@ -43,8 +43,12 @@
     line-height: 34px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 
     color: #FF4081;
+}
+.blog h2 a {
+    text-decoration: none;
 }
 .blog2 span {
     font-family: 'Ubuntu';
