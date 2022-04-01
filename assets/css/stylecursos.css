@@ -1,0 +1,86 @@
+h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    /* identical to box height */
+    margin: 0;
+    padding: 81px 0 0 82px;
+
+    text-transform: capitalize;
+
+    color: #FF4081;
+}
+h6 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    margin: 0;
+    padding: 0 0 95px 82px;
+
+    color: #555555;
+}
+main hr {
+    background: #C4C4C4 4px solid;
+    size: 50;
+    width: 90%;
+    align-items: center;
+
+}
+.cursos1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cursos1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 156px 93px 112px;
+}
+.cursos1 img {
+    max-width: 380px;
+}
+.cursos1 article {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+    justify-content: flex-start;
+
+    color: #FF4081;
+    padding: 0 0 0 53px;
+}
+.cursos1 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+
+    color: #000000;
+}
+.cursos1 a {
+    background: #2E948A;
+    border-radius: 62px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 13px 8px;
+    margin: 0 200px 0 0;
+
+    color: #FFFFFF;
+}
